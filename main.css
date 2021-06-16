@@ -1,0 +1,40 @@
+html, body { 
+  height:100%;
+  margin:0;
+  padding:0;
+  background-color: white; }
+  display:flex;
+  flex-direction: row;
+}
+ 
+
+  nav {
+    display: flex;
+    margin:4px, 4px;
+    padding:4px;
+    background-color:white;
+    width: 25%;
+    height: 100vh;
+    overflow-y: auto;
+    flex-direction: column;
+    
+}
+ 
+
+nav img {
+    height: 17vh;
+    width: 25vh;
+    margin: 20px;
+    float: center;
+}
+
+nav img:hover {
+  transform: scale(1.1);
+}
+
+view {
+    float: right;
+    height: 50%;
+    width: 50%;
+    border: '1px solid black'
+}
